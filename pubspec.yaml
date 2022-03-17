@@ -1,0 +1,41 @@
+name: my_apps
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.0
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^0.3.3
+  flutter:
+    sdk: flutter
+  flutter_image_slideshow: ^0.1.2
+  get: 4.6.1
+  http: ^0.13.4
+  intl: ^0.17.0
+  lottie: ^1.2.2
+  shimmer: ^2.0.0
+  smooth_star_rating_null_safety: ^1.0.4+2
+  staggered_grid_view_flutter: ^0.0.4
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+
+  assets:
+    - assets/logo/
+    - assets/icons/
+    - assets/images/
