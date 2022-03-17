@@ -23,7 +23,7 @@ class Brand extends StatelessWidget {
             child: const Padding(
               padding: EdgeInsets.only(left: 5, top: 10),
               child: Text(
-                'BRAND',
+                'Merk',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
